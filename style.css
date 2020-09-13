@@ -1,0 +1,55 @@
+/* to fix divs that have same width/height but different padding */
+
+* {
+    box-sizing: border-box;
+}
+
+/* for heading div */
+
+#heading {
+    background-color: black;
+    border: 1vh solid #b3ebb0;
+    border-radius: 2.6vw;
+    width: 65vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    font-size: 8vh;
+    font-family: "Verdana";
+    padding: 1.5vw;
+    color: #b3ebb0;
+}
+
+/* div to display statistics */
+
+#statistics {
+    text-align: center;
+    font-size: 2.7vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 3.5vh;
+    
+}
+
+/* div to be clicked for cps */
+
+#clickArea {
+    background-color: black;
+    border: .7vh solid #b3ebb0;
+    border-radius: 2.6vw;
+    width: 23vw;
+    height: 25vh;
+    padding: 9vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4.5vh;
+    font-size: 3.5vh;
+    font-family: "Verdana";
+    color: #b3ebb0;
+    user-select: none;
+    cursor: pointer;
+}
+
+
